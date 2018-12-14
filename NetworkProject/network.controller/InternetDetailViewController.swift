@@ -43,7 +43,7 @@ public class InternetDetailViewController: UIViewController
             {
                 if(detailAddress != nil)
                 {
-                    loadURL(webAddress detailAddress!)
+                    loadURL(webAddress: detailAddress!)
                 }
             }
             screenTitle?.text = detailTitle

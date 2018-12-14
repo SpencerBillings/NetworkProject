@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EB6A784E21C405A5002B9A30 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A784D21C405A5002B9A30 /* InternetDetailViewController.swift */; };
+		EB6A785021C40C8D002B9A30 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A784F21C40C8D002B9A30 /* InternetMasterViewController.swift */; };
 		EB71AD4E21C16F610088D8FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB71AD4D21C16F610088D8FF /* AppDelegate.swift */; };
-		EB71AD5021C16F610088D8FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB71AD4F21C16F610088D8FF /* ViewController.swift */; };
 		EB71AD5321C16F610088D8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB71AD5121C16F610088D8FF /* Main.storyboard */; };
 		EB71AD5521C16F6D0088D8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB71AD5421C16F6D0088D8FF /* Assets.xcassets */; };
 		EB71AD5821C16F6D0088D8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB71AD5621C16F6D0088D8FF /* LaunchScreen.storyboard */; };
@@ -37,9 +37,9 @@
 
 /* Begin PBXFileReference section */
 		EB6A784D21C405A5002B9A30 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		EB6A784F21C40C8D002B9A30 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		EB71AD4A21C16F610088D8FF /* NetworkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB71AD4D21C16F610088D8FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB71AD4F21C16F610088D8FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB71AD5221C16F610088D8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB71AD5421C16F6D0088D8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB71AD5721C16F6D0088D8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 		EB71AD7C21C16F990088D8FF /* network.controller */ = {
 			isa = PBXGroup;
 			children = (
-				EB71AD4F21C16F610088D8FF /* ViewController.swift */,
 				EB6A784D21C405A5002B9A30 /* InternetDetailViewController.swift */,
+				EB6A784F21C40C8D002B9A30 /* InternetMasterViewController.swift */,
 			);
 			path = network.controller;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB71AD5021C16F610088D8FF /* ViewController.swift in Sources */,
+				EB6A785021C40C8D002B9A30 /* InternetMasterViewController.swift in Sources */,
 				EB6A784E21C405A5002B9A30 /* InternetDetailViewController.swift in Sources */,
 				EB71AD4E21C16F610088D8FF /* AppDelegate.swift in Sources */,
 			);
