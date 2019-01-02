@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Internet Detail View Controller-->
         <scene sceneID="I4p-WO-bQC">
             <objects>
-                <viewController id="hFJ-qW-7Q6" sceneMemberID="viewController">
+                <viewController id="hFJ-qW-7Q6" customClass="InternetDetailViewController" customModule="NetworkProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QtJ-dA-Qnu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,6 +42,10 @@
                         <viewLayoutGuide key="safeArea" id="guW-BX-gdK"/>
                     </view>
                     <navigationItem key="navigationItem" id="Cbx-bo-JdM"/>
+                    <connections>
+                        <outlet property="screenTitle" destination="eID-G4-W6F" id="5GQ-Jf-AXM"/>
+                        <outlet property="webViewer" destination="CWx-DK-nq5" id="2nu-pb-3r7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hi3-P8-TmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,7 +54,7 @@
         <!--Root View Controller-->
         <scene sceneID="Fvi-Jg-jBj">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="pW6-dD-0eI" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="pW6-dD-0eI" customClass="InternetMasterViewController" customModule="NetworkProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eoe-xO-Uo8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
