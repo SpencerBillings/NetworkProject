@@ -22,7 +22,7 @@ public class InternetMasterViewController: UITableViewController
             "Standard Search Engine 🔍",
             "AP CSP 💾",
             "Canyons District 🍎",
-            "CTEC 🍏",
+            "Canyons Techhnical Education Center 🍏",
             "Social Media 🌐"
         ]
         
@@ -32,7 +32,7 @@ public class InternetMasterViewController: UITableViewController
             "https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles",
             "http://www.canyonsdistrict.org/",
             "https://ctec.canyonsdistrict.org/",
-            "https://www.instagram.com/spencerblessings/"
+            "https://www.instagram.com/speser_buildings/"
         ]
         if let splitView = splitViewController
         {
